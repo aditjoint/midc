@@ -146,9 +146,8 @@
   </div>
 </section>
 
-  
-    <!-- Expertise Section -->
-   <section class="expertise">
+  <!-- ✅ Expertise Section -->
+<section class="expertise">
   <div class="container">
     <div class="section-header">
       <h2>Strategic Solutions for the Modern Enterprise</h2>
@@ -157,17 +156,17 @@
 
     <!-- Grid wrapper -->
     <div class="expertise-grid">
-      <div class="expertise-card">
-    <div class="card-icon"><i class="fas fa-project-diagram"></i></div>
-      <h3>Project Management & Commissioning</h3>
-      <p>Delivering end-to-end project leadership from land acquisition and liaisoning through plant erection, commissioning, and stabilization.</p>
-      <ul class="feature-list">
-        <li>Comprehensive land acquisition and regulatory liaison</li>
-        <li>Execution of data center and plant infrastructure projects</li>
-        <li>Ensuring effective commissioning and operational stability</li>
-      </ul>
-      </div>
 
+      <div class="expertise-card">
+        <div class="card-icon"><i class="fas fa-project-diagram"></i></div>
+        <h3>Project Management & Commissioning</h3>
+        <p>Delivering end-to-end project leadership from land acquisition and liaisoning through plant erection, commissioning, and stabilization.</p>
+        <ul class="feature-list">
+          <li>Comprehensive land acquisition and regulatory liaison</li>
+          <li>Execution of data center and plant infrastructure projects</li>
+          <li>Ensuring effective commissioning and operational stability</li>
+        </ul>
+      </div>
 
       <div class="expertise-card">
         <div class="card-icon"><i class="fas fa-cogs"></i></div>
@@ -180,8 +179,11 @@
         </ul>
       </div>
 
+    </div> <!-- ✅ Closes .expertise-grid -->
+  </div> <!-- ✅ Closes .container -->
+</section> <!-- ✅ Closes .expertise -->
 
- <!-- Esg cards opens -->
+<!-- ✅ ESG Cards Section -->
 <section class="esg-cards">
   <div class="card">
     <div class="icon" aria-hidden="true">🌍</div>
@@ -208,120 +210,66 @@
   </div>
 </section>
 
-<style>
-  .esg-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 16px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  .esg-cards .card {
-    border: 1px solid #e6e6e6;
-    border-radius: 16px;
-    padding: 20px;
-    background: #ffffff;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
-    transition: transform .2s ease, box-shadow .2s ease;
-  }
-  .esg-cards .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 24px rgba(0,0,0,0.10);
-  }
-  .esg-cards .icon {
-    font-size: 28px;
-    line-height: 1;
-    margin-bottom: 10px;
-  }
-  .esg-cards h3 {
-    margin: 0 0 8px;
-    font-size: 1.1rem;
-    color: #0f3c2f; /* deep green */
-  }
-  .esg-cards p {
-    margin: 0;
-    color: #4a5568;
-    font-size: 0.95rem;
-    line-height: 1.4;
-  }
-
-  /* Optional subtle gradient accent */
-  .esg-cards .card:nth-child(1) { border-top: 4px solid #2e7d32; }
-  .esg-cards .card:nth-child(2) { border-top: 4px solid #1976d2; }
-  .esg-cards .card:nth-child(3) { border-top: 4px solid #6a1b9a; }
-  .esg-cards .card:nth-child(4) { border-top: 4px solid #00897b; }
-
-  /* Mobile spacing tweak */
-  @media (max-width: 480px) {
-    .esg-cards { padding: 12px; gap: 12px; }
-    .esg-cards .card { padding: 16px; }
-  }
-</style>
-
-
-<!-- Section Header -->
-<div style="text-align: center; padding: 40px 20px;">
-  <h3 style="font-size: 1.5rem; font-weight: 600;">
-    Comprehensive Data Center & Infrastructure Solutions — From Feasibility to Operations
-  </h3>
-</div>
-
-<!-- Cards Container -->
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: auto;">
-
-  <!-- Card 1: Data Center Consultancy -->
-  <div style="flex: 1 1 320px; background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: left;">
-    <h3 style="font-size: 1.3rem; color: #004aad;">Data Centers Consultancy</h3>
-    <p>End-to-end planning and lifecycle consultancy for hyperscale and enterprise data centers.</p>
-    <ul style="list-style: none; padding: 0;">
-      <li>• Site Selection & Feasibility Analysis</li>
-      <li>• Utility & Network Availability Studies</li>
-      <li>• CAPEX/OPEX Forecasting</li>
-      <li>• Tier III/IV Compliant Design</li>
-      <li>• PUE Optimization & Quality Audits</li>
-    </ul>
-    <a href="https://drive.google.com/file/d/1GbsOjx5NgvtVSMk7AF8zHK3HnpLX64wW/view?usp=sharing"
-       target="_blank"
-       style="color: #0056b3; text-decoration: none;">
-       📄 View Data Center Build Use Case (10–40 MW)
-    </a>
+<!-- ✅ Data Center & Infrastructure Cards Section -->
+<section class="infra-cards">
+  <div style="text-align: center; padding: 40px 20px;">
+    <h3 style="font-size: 1.5rem; font-weight: 600;">
+      Comprehensive Data Center & Infrastructure Solutions — From Feasibility to Operations
+    </h3>
   </div>
 
-  <!-- Card 2: Integrated Infrastructure Development -->
-  <div style="flex: 1 1 320px; background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: left;">
-    <h3 style="font-size: 1.3rem; color: #004aad;">Integrated Infrastructure Development</h3>
-    <p>Comprehensive advisory for industrial and hyperscale infrastructure projects.</p>
-    <ul style="list-style: none; padding: 0;">
-      <li>• Site Feasibility & Land Due Diligence</li>
-      <li>• Master Planning & Infrastructure Design</li>
-      <li>• Regulatory & Environmental Compliance</li>
-      <li>• Construction Project Management</li>
-      <li>• Operations & Sustainability Advisory</li>
-    </ul>
-    <a href="../currentaffairs/land-infrastructure.html"
-       class="btn btn-primary"
-       style="margin-top: 10px; display: inline-block;">
-       Learn More
-    </a>
-  </div>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; max-width: 1200px; margin: auto;">
+    <!-- Card 1 -->
+    <div style="flex: 1 1 320px; background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: left;">
+      <h3 style="font-size: 1.3rem; color: #004aad;">Data Centers Consultancy</h3>
+      <p>End-to-end planning and lifecycle consultancy for hyperscale and enterprise data centers.</p>
+      <ul style="list-style: none; padding: 0;">
+        <li>• Site Selection & Feasibility Analysis</li>
+        <li>• Utility & Network Availability Studies</li>
+        <li>• CAPEX/OPEX Forecasting</li>
+        <li>• Tier III/IV Compliant Design</li>
+        <li>• PUE Optimization & Quality Audits</li>
+      </ul>
+      <a href="https://drive.google.com/file/d/1GbsOjx5NgvtVSMk7AF8zHK3HnpLX64wW/view?usp=sharing"
+         target="_blank"
+         style="color: #0056b3; text-decoration: none;">
+         📄 View Data Center Build Use Case (10–40 MW)
+      </a>
+    </div>
 
-  <!-- Card 3: Engineering & Build Support -->
-  <div style="flex: 1 1 320px; background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: left;">
-    <h3 style="font-size: 1.3rem; color: #004aad;">Engineering, Build & Lifecycle Support</h3>
-    <p>Ensuring project success from detailed engineering to operations handover.</p>
-    <ul style="list-style: none; padding: 0;">
-      <li>• MEP Design & Build Management</li>
-      <li>• Vendor & Technology Evaluation</li>
-      <li>• Commissioning & Handover Management</li>
-      <li>• Operations & Maintenance Optimization</li>
-      <li>• Lifecycle Risk & Efficiency Audits</li>
-    </ul>
-   
+    <!-- Card 2 -->
+    <div style="flex: 1 1 320px; background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: left;">
+      <h3 style="font-size: 1.3rem; color: #004aad;">Integrated Infrastructure Development</h3>
+      <p>Comprehensive advisory for industrial and hyperscale infrastructure projects.</p>
+      <ul style="list-style: none; padding: 0;">
+        <li>• Site Feasibility & Land Due Diligence</li>
+        <li>• Master Planning & Infrastructure Design</li>
+        <li>• Regulatory & Environmental Compliance</li>
+        <li>• Construction Project Management</li>
+        <li>• Operations & Sustainability Advisory</li>
+      </ul>
+      <a href="../currentaffairs/land-infrastructure.html"
+         class="btn btn-primary"
+         style="margin-top: 10px; display: inline-block;">
+         Learn More
+      </a>
+    </div>
+
+    <!-- Card 3 -->
+    <div style="flex: 1 1 320px; background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: left;">
+      <h3 style="font-size: 1.3rem; color: #004aad;">Engineering, Build & Lifecycle Support</h3>
+      <p>Ensuring project success from detailed engineering to operations handover.</p>
+      <ul style="list-style: none; padding: 0;">
+        <li>• MEP Design & Build Management</li>
+        <li>• Vendor & Technology Evaluation</li>
+        <li>• Commissioning & Handover Management</li>
+        <li>• Operations & Maintenance Optimization</li>
+        <li>• Lifecycle Risk & Efficiency Audits</li>
+      </ul>
+    </div>
   </div>
-</div>
-  </div>
-   </section>
+</section>
+
 
     <!-- Call to Action Section -->
     <section class="cta-section">
